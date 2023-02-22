@@ -1,4 +1,4 @@
-# express-graceful-shutdown-handler
+# express-graceful-shutdown-handler-patched
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
