@@ -10,13 +10,13 @@ After encountering an exception this middleware stops accepting new requests, wa
 ## Installation
 
 ```bash
-$ npm install express-graceful-shutdown-handler
+$ npm install express-graceful-shutdown-handler-patched
 ```
 
 ## API
 
 ```js
-var gracefulShutdown = require('express-graceful-shutdown-handler')
+var gracefulShutdown = require('express-graceful-shutdown-handler-patched')
 
 ```
 
@@ -61,11 +61,11 @@ The default value is `503`.
 
 ## Example
 
-A simple example using `express-graceful-shutdown-handler` to log the exception asynchronously (for example to Slack), waiting for the logger to complete the request.
+A simple example using `express-graceful-shutdown-handler-patched` to log the exception asynchronously (for example to Slack), waiting for the logger to complete the request.
 
 ```js
 var express = require('express')
-var gracefulShutdown = require('express-graceful-shutdown-handler')
+var gracefulShutdown = require('express-graceful-shutdown-handler-patched')
 
 var app = express()
 
@@ -101,7 +101,3 @@ Every consecutive request will return with HTTP status code `503`.
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/express-graceful-shutdown-handler.svg
-[npm-url]: https://npmjs.org/package/express-graceful-shutdown-handler
-[downloads-image]: https://img.shields.io/npm/dm/express-graceful-shutdown-handler.svg
-[downloads-url]: https://npmjs.org/package/express-graceful-shutdown-handler
