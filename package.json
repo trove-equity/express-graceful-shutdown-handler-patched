@@ -1,6 +1,6 @@
 {
   "name": "express-graceful-shutdown-handler-patched",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware to handle graceful shutdown on any uncaught exception.",
   "main": "./lib/index",
   "scripts": {
