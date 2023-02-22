@@ -1,4 +1,4 @@
-{
+\1;95;0c{
   "name": "express-graceful-shutdown-handler-patched",
   "version": "1.0.0",
   "description": "Middleware to handle graceful shutdown on any uncaught exception.",
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/SwingDev/express-graceful-shutdown-handler#readme",
   "dependencies": {
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.11",
     "on-finished": "^2.3.0"
   }
 }
